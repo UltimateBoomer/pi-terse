@@ -1,0 +1,10 @@
+{
+  "name": "pi-terse",
+  "version": "1.0.0",
+  "description": "Terse reply style for pi: 22 writing rules as a forced system prompt section, a per-request reminder against drift in long sessions, and a context meter in the footer.",
+  "keywords": ["pi-package", "writing", "style", "concise", "statusline", "context"],
+  "license": "MIT",
+  "pi": {
+    "extensions": ["./extensions/terse.ts"]
+  }
+}
