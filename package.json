@@ -2,9 +2,27 @@
   "name": "pi-terse",
   "version": "1.0.0",
   "description": "Terse reply style for pi: 22 writing rules as a forced system prompt section, a per-request reminder against drift in long sessions, and a context meter in the footer.",
-  "keywords": ["pi-package", "writing", "style", "concise", "statusline", "context"],
+  "keywords": [
+    "pi-package",
+    "writing",
+    "style",
+    "concise",
+    "statusline",
+    "context"
+  ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UltimateBoomer/pi-terse.git"
+  },
+  "homepage": "https://github.com/UltimateBoomer/pi-terse",
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
   "pi": {
-    "extensions": ["./extensions/terse.ts"]
+    "extensions": [
+      "./extensions/terse.ts"
+    ]
   }
 }
